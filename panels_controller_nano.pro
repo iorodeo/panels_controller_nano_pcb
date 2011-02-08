@@ -1,5 +1,5 @@
-update=Mon 07 Feb 2011 06:33:58 PM PST
-last_client=pcbnew
+update=Tue 08 Feb 2011 02:05:47 PM PST
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
@@ -92,15 +92,14 @@ TxtLar=120
 MSegLar=150
 WpenSer=10
 [pcbnew/libraries]
+LibName1=connect
+LibName2=discret
+LibName3=pin_array
+LibName4=dip_sockets
+LibName5=panels_controller_nano
 LibDir=
-LibName1=sockets
-LibName2=connect
-LibName3=discret
-LibName4=pin_array
-LibName5=divers
-LibName6=libcms
-LibName7=display
-LibName8=valves
-LibName9=led
-LibName10=dip_sockets
-LibName11=panels_controller_nano
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

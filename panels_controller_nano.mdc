@@ -1,0 +1,15 @@
+PCBNEW-LibDoc----V1  Tue 08 Feb 2011 03:12:00 PM PST
+#
+$MODULE CP2
+Li CP2
+Cd Condensateur = 2 pas
+Kw C
+$EndMODULE
+#
+$MODULE DCJACK_3PIN
+Li DCJACK_3PIN
+Cd module 1 pin (ou trou mecanique de percage)
+Kw CONN JACK
+$EndMODULE
+#
+$EndLIBDOC
