@@ -4,35 +4,24 @@
   (placement
     (resolution mil 10)
     (component SCREW_TERMINAL_3
-      (place K2 48500 -42500 front 270)
-      (place K1 57500 -42500 front 90)
+      (place K2 48500 -45250 front 270)
+      (place K1 57500 -45250 front 90)
     )
     (component DB9_90DEG_FEMALE_PINS
       (place J1 53000 -50500 front 0)
     )
-    (component C2
-      (place C3 57500 -33000 front 90)
-      (place C1 48000 -30500 front 270)
-      (place C2 48000 -36500 front 270)
-    )
-    (component PIN_ARRAY_2X2
-      (place P1 57750 -29250 front 270)
-    )
     (component R3
-      (place R1 55500 -47000 front 270)
-      (place R2 50500 -47000 front 270)
-    )
-    (component R4
-      (place R3 57500 -37000 front 270)
-    )
-    (component arduino_nano
-      (place U1 53000 -33000 front 0)
+      (place R1 58000 -38500 front 270)
+      (place R2 48000 -38500 front 270)
     )
     (component MOUNT_HOLE_4_40
-      (place P5 58000 -46000 front 0)
-      (place P4 48000 -46000 front 0)
-      (place P3 58000 -26000 front 0)
-      (place P2 48000 -26000 front 0)
+      (place P5 58000 -48500 front 0)
+      (place P4 48000 -48500 front 0)
+      (place P3 58000 -28500 front 0)
+      (place P2 48000 -28500 front 0)
+    )
+    (component arduino_nano
+      (place U1 53000 -34500 front 180)
     )
   )
   (was_is
@@ -66,105 +55,69 @@
     (network_out 
       (net /PB1
         (wire
-          (path Back 320
-            50000 -37000
-            49129 -37871
-            49129 -42037
-            48666 -42500
-            48500 -42500
+          (path Front 320
+            56000 -30500
+            50948 -35552
+            50948 -43841
+            49539 -45250
+            48500 -45250
           )
         )
       )
       (net /PD3
         (wire
-          (path Back 320
-            53947 -37557
-            53947 -38947
-            57500 -42500
-          )
-        )
-        (via "Via[0-1]_35:25_mil" 53947 -37557
-        )
-        (wire
           (path Front 320
-            50000 -31000
-            53947 -34947
-            53947 -37557
-          )
-        )
-      )
-      (net /RST
-        (wire
-          (path Back 320
-            57250 -28750
-            56687 -28750
-          )
-        )
-        (wire
-          (path Back 320
-            56000 -28000
-            56687 -28687
-            56687 -28750
+            56000 -36500
+            55343 -37157
+            55343 -43093
+            57500 -45250
           )
         )
       )
       (net /SCL
         (wire
-          (path Front 320
-            56000 -32000
-            56747 -32747
-            56747 -47253
-            55500 -48500
+          (path Back 320
+            55914 -42064
+            55914 -51024
+            55318 -51620
+            54635 -51620
           )
         )
         (wire
           (path Back 320
-            55500 -48500
-            55809 -48809
-            55809 -51037
-            55226 -51620
-            54635 -51620
+            55914 -42064
+            56609 -42064
+            58000 -40673
+            58000 -40000
+          )
+        )
+        (wire
+          (path Back 320
+            50000 -35500
+            55366 -40866
+            55366 -41972
+            55458 -42064
+            55914 -42064
           )
         )
       )
       (net /SDA
         (wire
           (path Back 320
-            50500 -48500
-            49768 -49232
-            49768 -51693
+            48000 -40000
+            49169 -41169
+            49169 -51094
             50514 -52439
             51636 -52439
             52455 -51620
           )
         )
         (wire
-          (path Back 320
-            56000 -33000
-            51413 -37587
-            51413 -47587
-            50500 -48500
-          )
-        )
-      )
-      (net "N-000037"
-        (wire
           (path Front 320
-            58250 -29750
-            58250 -33250
-            57500 -34000
-          )
-        )
-        (wire
-          (path Front 320
-            58250 -28750
-            58250 -29750
-          )
-        )
-        (wire
-          (path Front 320
-            57500 -35000
-            57500 -34000
+            50000 -34500
+            48871 -35629
+            48871 -39129
+            48000 -40000
           )
         )
       )
