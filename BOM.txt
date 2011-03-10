@@ -1,0 +1,30 @@
+-*- mode:org -*-
+
+# panels_controller_nano.lst
+| ref | value           |
+|-----+-----------------|
+| J1  | DB9_FEMALE_PINS |
+| K1  | PD3             |
+| K2  | PB1             |
+| P2  | CONN_1          |
+| P3  | CONN_1          |
+| P4  | CONN_1          |
+| P5  | CONN_1          |
+| R1  | 1k              |
+| R2  | 1k              |
+| U1  | ARDUINO_NANO    |
+
+# Bill of Materials
+| ! | part  | description                      | vendor       | part number   | quantity |   cost |
+|---+-------+----------------------------------+--------------+---------------+----------+--------|
+|   | PCB   | panels_controller_nano 2.0       | protoexpress | 193507-iNTJ   |        1 |  56.45 |
+|   | J1    | CONN D-SUB RCPT R/A 9POS GOLD/FL | digikey      | A35107-ND     |        1 |   1.87 |
+|   | K1-2  | CONN TERM BLOCK 2.54MM 3POS      | digikey      | 277-1274-ND   |        2 |   1.67 |
+|   | P2-5  | STANDOFF HEX 4-40THR ALUM .500"L | digikey      | 2203K-ND      |        4 |   0.45 |
+|   | P2-5  | SCREW MACHINE PHIL 4-40X3/8 SS   | digikey      | H782-ND       |        4 |   0.05 |
+|   | R1-2  | RES 1.00K OHM 1/4W 1% METAL FILM | digikey      | 1.00KXBK-ND   |        2 |   0.11 |
+|   | U1    | Arduino Nano 3.0                 | gravitech    | ARD-NANO30    |        1 |  34.99 |
+|   | U1    | CONN RCPT .100" 15POS SNGL TIN   | digikey      | SAM1222-15-ND |        2 |   2.09 |
+|---+-------+----------------------------------+--------------+---------------+----------+--------|
+| # | total |                                  |              |               |          | 103.05 |
+#+TBLFM: @10$7=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);N

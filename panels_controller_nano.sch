@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 16 Feb 2011 03:37:27 PM PST
+EESchema Schematic File Version 2  date Thu 10 Mar 2011 10:54:14 AM PST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 1
 Title "panels_controller_nano"
-Date "16 feb 2011"
+Date "10 mar 2011"
 Rev "2.0"
 Comp ""
 Comment1 ""
