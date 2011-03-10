@@ -17,7 +17,7 @@
 # Bill of Materials
 | ! | part  | description                      | vendor       | part number   | quantity |   cost |
 |---+-------+----------------------------------+--------------+---------------+----------+--------|
-|   | PCB   | panels_controller_nano 2.0       | protoexpress | 193507-iNTJ   |        1 |  56.45 |
+|   | PCB   | panels_controller_nano 2.0       | protoexpress | 193507-INTJ   |        1 |  56.45 |
 |   | J1    | CONN D-SUB RCPT R/A 9POS GOLD/FL | digikey      | A35107-ND     |        1 |   1.87 |
 |   | K1-2  | CONN TERM BLOCK 2.54MM 3POS      | digikey      | 277-1274-ND   |        2 |   1.67 |
 |   | P2-5  | STANDOFF HEX 4-40THR ALUM .500"L | digikey      | 2203K-ND      |        4 |   0.45 |
@@ -27,4 +27,4 @@
 |   | U1    | CONN RCPT .100" 15POS SNGL TIN   | digikey      | SAM1222-15-ND |        2 |   2.09 |
 |---+-------+----------------------------------+--------------+---------------+----------+--------|
 | # | total |                                  |              |               |          | 103.05 |
-#+TBLFM: @10$7=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);N
+#+TBLFM: @10$7=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);%.2f;N
